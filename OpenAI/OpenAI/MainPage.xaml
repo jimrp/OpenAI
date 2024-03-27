@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpenAI.MainPage"
+            BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+
+            <Image
+                HorizontalOptions="Center"
+                Margin="10,50,10,0"
+                WidthRequest="70"
+                Source="aigreen"
+                BackgroundColor="Transparent"/>
+            <Label
+                HorizontalOptions="Center"
+                Margin="0,0,0,20"
+                TextColor="Black"
+                FontSize="12"
+                FontAttributes="Italic"
+                Text="by Dimitris Ripis"/>
+            
+            <Label
+                Text="Hello User!"
+                HorizontalTextAlignment="Center"
+                TextColor="Black"
+                FontSize="30"/>
+            <StackLayout Orientation="Horizontal">
+                <Entry
+                    x:Name="ask"
+                    FontSize="16"
+                    WidthRequest="260"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    Placeholder="Ask anything..."
+                    HorizontalOptions="StartAndExpand"/>
+                <ImageButton
+                    Source="send"
+                    WidthRequest="30"
+                    BackgroundColor="Transparent"
+                    Clicked="Send_Clicked"/>
+                <ImageButton
+                    WidthRequest="30"
+                    Source="paint"
+                    BackgroundColor="Transparent"
+                    Clicked="Paint_Clicked"/>
+            </StackLayout>
+
+            <StackLayout
+                Orientation="Horizontal"
+                Margin="0,40,0,10">
+                <ImageButton
+                    WidthRequest="70"
+                    Source="microphone"
+                    HorizontalOptions="CenterAndExpand"
+                    BackgroundColor="Transparent"
+                    Clicked="Microphone_Clicked"/>
+                <ImageButton
+                    x:Name="sound"
+                    WidthRequest="30"
+                    Source="nosound"
+                    VerticalOptions="End"
+                    BackgroundColor="Transparent"
+                    Clicked="sound_Clicked"/>
+            </StackLayout>
+            
+            <ScrollView x:Name="scrollchat">
+                <StackLayout
+                    x:Name="response"
+                    Margin="0,5"/>
+            </ScrollView>
+            <ImageButton
+                x:Name="delicon"
+                Margin="0,10"
+                IsVisible="false"
+                HorizontalOptions="End"
+                WidthRequest="20"
+                Source="trash"
+                BackgroundColor="Transparent"
+                Clicked="Trash_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

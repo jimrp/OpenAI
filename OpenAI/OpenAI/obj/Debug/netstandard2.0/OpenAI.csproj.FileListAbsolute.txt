@@ -1,0 +1,14 @@
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/bin/Debug/netstandard2.0/OpenAI.deps.json
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/bin/Debug/netstandard2.0/OpenAI.dll
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/bin/Debug/netstandard2.0/ref/OpenAI.dll
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/bin/Debug/netstandard2.0/OpenAI.pdb
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/OpenAI.csproj.AssemblyReference.cache
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/OpenAI.AssemblyInfoInputs.cache
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/OpenAI.AssemblyInfo.cs
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/OpenAI.csproj.CoreCompileInputs.cache
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/OpenAI.dll
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/ref/OpenAI.dll
+/Users/dimitrisripis/Projects/OpenAI/OpenAI/OpenAI/obj/Debug/netstandard2.0/OpenAI.pdb
